@@ -1,0 +1,136 @@
+*::-webkit-scrollbar {
+	width: 0 !important;
+}
+$off-black: #070707;
+$off-white: #f7f7f7;
+
+body,
+html {
+	height                 : 100%;
+	font-size              : 13px;
+	line-height            : 120%;
+	font-family            : 'Helvetica Text';
+	-webkit-font-smoothing : antialiased;
+	-moz-osx-font-smoothing: grayscale;
+	text-rendering         : optimizeLegibility;
+	font-feature-settings  : "kern" 1;
+	font-kerning           : normal;
+	letter-spacing         : -.700px;
+	font-variant-numeric   : tabular-nums;
+	user-select            : none;
+}
+
+body {
+	background    : $off-black;
+	color         : $off-white;
+	text-transform: uppercase;
+}
+
+a {
+	display              : inline;
+	color                : inherit;
+	padding              : 2rem;
+	margin               : -2rem;
+	text-decoration-line : line-through;
+	text-decoration-color: rgba(255,255,255,1);
+
+	&:hover {
+		cursor         : crosshair;
+		background     : $off-white;
+		color          : $off-black;
+		text-decoration: none;
+		padding        : 2rem;
+		margin         : -2rem;
+		box-shadow     : 0 0 5px rgba(0,0,0,.5);
+	}
+}
+
+ul {
+	list-style-type: none;
+	padding        : 0;
+	margin         : 0;
+}
+
+p {
+	margin: 0;
+}
+
+article {
+	img {
+		max-width : 100%;
+		transition: all .25s linear;
+	}
+
+	@media (min-width: 600px) {
+		flex-basis                : 33.33%;
+		margin                    : 0 auto;
+		height                    : 100vh;
+		overflow                  : scroll;
+		-webkit-overflow-scrolling: touch;
+
+		ul {
+			margin: 4rem;
+
+			&:nth-child(odd) {
+				margin-bottom: 100%;
+			}
+
+			&:nth-child(even) {
+				margin-bottom: 100%;
+				text-align   : right;
+			}
+		}
+	}
+
+	@media (max-width: 599px) {
+		ul {
+			margin: 2rem;
+		}
+	}
+}
+
+#app {
+	@media (min-width: 599px) {
+		display: flex;
+	}
+}
+
+#loader {
+	position   : fixed;
+	display    : flex;
+	flex-wrap  : wrap;
+	align-items: center;
+	height     : 100%;
+	width      : 100%;
+	background : $off-black;
+
+	span {
+		text-align: center;
+		min-width : 30%;
+		margin    : 0 auto;
+		animation : blink 1s linear infinite;
+		display   : block;
+
+	}
+}
+
+#gallery {
+	-webkit-overflow-scrolling: touch;
+
+	img {
+		max-height: 700px;
+	}
+}
+@keyframes blink {
+	0% {
+		opacity: 0;
+	}
+
+	50% {
+		opacity: .5;
+	}
+
+	100% {
+		opacity: 1;
+	}
+}
