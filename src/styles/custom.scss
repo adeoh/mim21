@@ -114,13 +114,18 @@ article {
 	}
 }
 
-#gallery {
-	-webkit-overflow-scrolling: touch;
+// #gallery {
+// 	-webkit-overflow-scrolling: touch;
+//
+// 	img {
+// 		margin-bottom: 10rem;
+// 	}
+//
+// 	img {
+// 		max-height: 700px;
+// 	}
+// }
 
-	img {
-		max-height: 700px;
-	}
-}
 @keyframes blink {
 	0% {
 		opacity: 0;
@@ -132,5 +137,17 @@ article {
 
 	100% {
 		opacity: 1;
+	}
+}
+
+.swiper-container {
+	// width     : 100%;
+	max-height: 100vh;
+	// height    : auto;
+	// overflow  : scroll;
+
+	img {
+		max-width: 100%;
+		height   : auto;
 	}
 }

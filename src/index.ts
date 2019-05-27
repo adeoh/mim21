@@ -21,5 +21,4 @@ window.onload = function() {
     loader.style.visibility = 'hidden';
     loader.style.opacity = '0';
   }, 2500);
-
 }

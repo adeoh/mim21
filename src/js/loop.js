@@ -1,4 +1,4 @@
-var doc = window.document,
+	var doc = window.document,
   context = doc.querySelector('.js-loop'),
   clones = context.querySelectorAll('.is-clone'),
   disableScroll = false,
@@ -75,6 +75,13 @@ if (document.readyState !== 'loading') {
 } else {
   doc.addEventListener('DOMContentLoaded', init, false)
 }
+
+
+
+
+
+
+
 
 // Just for this demo: Center the middle block on page load
 window.onload = function () {

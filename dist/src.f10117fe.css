@@ -442,13 +442,6 @@ article img {
   display: block;
 }
 
-#gallery {
-  -webkit-overflow-scrolling: touch;
-}
-#gallery img {
-  max-height: 700px;
-}
-
 @keyframes blink {
   0% {
     opacity: 0;
@@ -459,6 +452,13 @@ article img {
   100% {
     opacity: 1;
   }
+}
+.swiper-container {
+  max-height: 100vh;
+}
+.swiper-container img {
+  max-width: 100%;
+  height: auto;
 }
 @font-face {
   font-family: "Helvetica Display";
