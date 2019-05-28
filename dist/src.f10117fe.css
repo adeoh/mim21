@@ -359,24 +359,19 @@ html {
 body {
   background: #070707;
   color: #f7f7f7;
-  text-transform: uppercase;
 }
 
 a {
   display: inline;
   color: inherit;
-  padding: 2rem;
-  margin: -2rem;
-  text-decoration-line: line-through;
-  text-decoration-color: white;
 }
 a:hover {
   cursor: crosshair;
   background: #f7f7f7;
   color: #070707;
   text-decoration: none;
-  padding: 2rem;
-  margin: -2rem;
+  padding: 0.525rem;
+  margin: -0.525rem;
   box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
 }
 
@@ -442,6 +437,15 @@ article img {
   display: block;
 }
 
+#gallery {
+  -webkit-overflow-scrolling: touch;
+  scroll-snap-type: y mandatory;
+}
+#gallery img {
+  scroll-snap-align: center;
+  margin-bottom: 5rem;
+}
+
 @keyframes blink {
   0% {
     opacity: 0;
@@ -452,13 +456,6 @@ article img {
   100% {
     opacity: 1;
   }
-}
-.swiper-container {
-  max-height: 100vh;
-}
-.swiper-container img {
-  max-width: 100%;
-  height: auto;
 }
 @font-face {
   font-family: "Helvetica Display";

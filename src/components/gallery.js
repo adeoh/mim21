@@ -12,13 +12,15 @@ module.exports = {
     arena.channel('folio2020').get()
       .then(chan => {
         chan.contents.map(item => {
-          var imgSrc = (item.image.original.url);
+          var imgSrc = (item.image.display.url);
+          var imgOri = (item.image.display.url);
           console.log(imgSrc);
 
           for (var i = 0; i <= 0; i++) {
             var node = new Image();
             node.setAttribute('src', imgSrc);
             node.setAttribute('class', 'swiper-slide');
+            node.setAttribute('data-original', imgOri);
             container.appendChild(node);
           }
 

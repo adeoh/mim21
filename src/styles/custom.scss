@@ -21,26 +21,22 @@ html {
 }
 
 body {
-	background    : $off-black;
-	color         : $off-white;
-	text-transform: uppercase;
+	background: $off-black;
+	color     : $off-white;
+	// text-transform: uppercase;
 }
 
 a {
-	display              : inline;
-	color                : inherit;
-	padding              : 2rem;
-	margin               : -2rem;
-	text-decoration-line : line-through;
-	text-decoration-color: rgba(255,255,255,1);
+	display: inline;
+	color  : inherit;
 
 	&:hover {
 		cursor         : crosshair;
 		background     : $off-white;
 		color          : $off-black;
 		text-decoration: none;
-		padding        : 2rem;
-		margin         : -2rem;
+		padding        : .525rem;
+		margin         : -.525rem;
 		box-shadow     : 0 0 5px rgba(0,0,0,.5);
 	}
 }
@@ -114,17 +110,15 @@ article {
 	}
 }
 
-// #gallery {
-// 	-webkit-overflow-scrolling: touch;
-//
-// 	img {
-// 		margin-bottom: 10rem;
-// 	}
-//
-// 	img {
-// 		max-height: 700px;
-// 	}
-// }
+#gallery {
+	-webkit-overflow-scrolling: touch;
+	scroll-snap-type          : y mandatory;
+
+	img {
+		scroll-snap-align: center;
+		margin-bottom    : 5rem;
+	}
+}
 
 @keyframes blink {
 	0% {
@@ -137,17 +131,5 @@ article {
 
 	100% {
 		opacity: 1;
-	}
-}
-
-.swiper-container {
-	// width     : 100%;
-	max-height: 100vh;
-	// height    : auto;
-	// overflow  : scroll;
-
-	img {
-		max-width: 100%;
-		height   : auto;
 	}
 }

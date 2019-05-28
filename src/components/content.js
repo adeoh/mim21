@@ -3,37 +3,33 @@ module.exports = {
   render : function(element){
       element.innerHTML = `
 							<ul>
-								<li>CURRENTLY MAKING: </li>
-								<li><a href="http://goodies.design">A DESIGN COMMUNITY FOR NOVICES</a></li>
-								<li><a href="https://www.facebook.com/plantalibre.mx/">AN EXPERIMENTAL ART GALLERY</a></li>
+								<li>Currently Making: </li>
+								<li><a href="http://goodies.design">A design community for novices</a></li>
+								<li><a href="https://plantalibre.mx">An experimental art gallery</a></li>
 							</ul>
 
 
 							<ul>
-								<li>JOURNAL:</li>
-								<li><a href="">RANDOM NOTES</a> / 25 MAY 19</li>
-								<li><a href="">THOUGHTS ON DESIGN</a> / 20 may 19</li>
-								<li><a href="">some unsolicited blogging advice</a> / 14 MAY 19</li>
-								<li><a href="">future ethics with cennydd</a> / 04 may 19</li>
-								<li><a href="">lets learn react</a> / 09 may 19</li>
-								<li><a href="">i need help!</a> / 01 MAY 19</li>
-								<li><a href="">going to monterrey</a> / 01 feb 19</li>
+								<li><a href="">Random notes and rants</a><small> / 25 MAY 19</small></li>
+								<li><a href="">Some thoughts on design</a><small> / 20 MAY 19</small></li>
+								<li><a href="">Some unsolicited blogging advice</a><small> / 14 MAY 19</small></li>
+								<li><a href="">Future ethics with cennydd</a><small> / 04 MAY 19</small></li>
+								<li><a href="">Lets learn react</a><small> / 09 MAY 19</small></li>
 							</ul>
 
 							<ul>
-								<li>LIVE PROJECTS:</li>
-								<li><a href="#last">PULSAR Ⓡ MH</a> (BRAND/WEB)</li>
-								<li><a href="https://ohanapoke.mx">OHANA POKÉ</a> (BRAND/INTERIORS)</li>
-								<li><a href="https://www.youtube.com/watch?v=OzwjfE4PqW4">INSITE MUSIC</a> (FILM/TYPE)</li>
-								<li><a href="https://dominasistemi.it/">DOMINA SISTEMI</a> (BRANDING)</li>
-								<li><a href="https://www.youtube.com/watch?v=dyocxGiviRo">INSITE MUSIC</a>(FILM/TYPE)</li>
+								<li><a href="#last">PULSAR Ⓡ MH</a> (Brand/Web)</li>
+								<li><a href="https://ohanapoke.mx">OHANA POKÉ</a> (Brand/Interiors)</li>
+								<li><a href="https://www.youtube.com/watch?v=OzwjfE4PqW4">INSITE MUSIC</a> (Film/Type)</li>
+								<li><a href="https://dominasistemi.it/">DOMINA SISTEMI</a> (Branding)</li>
+								<li><a href="https://www.youtube.com/watch?v=dyocxGiviRo">INSITE MUSIC</a>(Film/Type)</li>
 
-								<li><a href="https://www.infamuse.com">INFAMUSE</a> (INT/UX/UI/DEV)</li>
-								<li><a href="http://vira.com.mx">VIRA</a> (INT/UX/UI/DEV)</li>
-								<li><a href="https://www.blackpalmdevelopment.com">BLACKPALM DEV.</a> (UX/DEV)</li>
-								<li><a href="https://tequiladelaluz.com">DELALUZ</a> (INT/UI/UX/DEV)</li>
-								<li><a href="https://panio.mx">PANIO BAKERS</a> (UX/DEV)</li>
-								<li><a href="https://www.arcusfi.com">ARCUS</a> (INT/UI/UX/DEV)</li>
+								<li><a href="https://www.infamuse.com">INFAMUSE</a> (INT/UX/UI/Dev)</li>
+								<li><a href="http://vira.com.mx">VIRA</a> (INT/UX/UI/Dev)</li>
+								<li><a href="https://www.blackpalmdevelopment.com">BLACKPALM DEV.</a> (UX/Dev)</li>
+								<li><a href="https://tequiladelaluz.com">DELALUZ</a> (INT/UI/UX/Dev)</li>
+								<li><a href="https://panio.mx">PANIO BAKERS</a> (UX/Dev)</li>
+								<li><a href="https://www.arcusfi.com">ARCUS</a> (INT/UI/UX/Dev)</li>
 							</ul>
 
 							<ul>
@@ -45,23 +41,22 @@ module.exports = {
 
 
 							<ul>
-								<li>SKILLS:</li>
-								<li>LEADERSHIP</li>
-								<li>BRANDING NETWORKS</li>
-								<li>HCD DESIGN</li>
-								<li>CREATIVE DIRECTION</li>
+								<li>Leadership</li>
+								<li>Branding networks</li>
+								<li>HCD Design</li>
+								<li>Creative direction</li>
 								<li>IA/UX/UI</li>
-								<li>INTERIORS</li>
-								<li>COPYWRITING</li>
-								<li>FILM TITLES</li>
-								<li>STORYBOARDING</li>
-								<li>STRATEGY</li>
-								<li>PHOTOGRAPHY</li>
-								<li>GROWTH HACKING</li>
-								<li>INBOUND MARKETING</li>
+								<li>Interiors/Architecture</li>
+								<li>Copywriting</li>
+								<li>Film Typography</li>
+								<li>Storyboarding</li>
+								<li>Comm. Strategy</li>
+								<li>Photography</li>
+								<li>Growth Auditoring</li>
+								<li>Inbound Marketing</li>
 								<li>AAARRR!</li>
 							</ul>
-							
+
 							<ul>
 								<li>READING:</li>
 								<li><a href="">ANTIFRAGILE</a> / N. N. TALEB</li>
