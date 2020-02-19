@@ -1,7 +1,18 @@
+// import Vue from 'vue';
+// import VueLoop from 'vue-loop'
+
 import "./styles/normalize.scss";
 import "./styles/custom.scss";
-import "./styles/fonts.scss";
+import "./js/favicon.js";
 import "./js/scroll.js";
+//
+// new Vue({
+//     el: '#gallery',
+//
+//     components: {
+//         VueLoop
+//     }
+// })
 
 window.onload = function() {
 	  import('./components/id.js').then(function(page) {

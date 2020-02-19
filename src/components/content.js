@@ -1,72 +1,54 @@
 console.log("content loaded");
 module.exports = {
-  render : function(element){
-      element.innerHTML = `
+  render: function(element) {
+    element.innerHTML = `
 							<ul>
-								<li>Currently Making: </li>
+								<li>Currently making: </li>
+								<li><a href="http://pulsar.media">My audiovisual studio</a></li>
 								<li><a href="http://goodies.design">A design community for novices</a></li>
 								<li><a href="https://plantalibre.mx">An experimental art gallery</a></li>
 							</ul>
-
-
 							<ul>
-								<li><a href="">Random notes and rants</a><small> / 25 MAY 19</small></li>
-								<li><a href="">Some thoughts on design</a><small> / 20 MAY 19</small></li>
-								<li><a href="">Some unsolicited blogging advice</a><small> / 14 MAY 19</small></li>
-								<li><a href="">Future ethics with cennydd</a><small> / 04 MAY 19</small></li>
-								<li><a href="">Lets learn react</a><small> / 09 MAY 19</small></li>
+							<li>📌</li>
+								<li><a href="#!">Random notes and rants</a> <em>SOON</em></li>
+								<li><a href="#!">Some thoughts on design</a> <em>SOON</em></li>
+								<li><a href="#!">Some unsolicited advice</a> <em>SOON</em></li>
+								<li><a href="#!">Future design ethics</a> <em>SOON</em></li>
+								<li><a href="#!">Lets learn react</a> <em>SOON</em></li>
 							</ul>
 
 							<ul>
-								<li><a href="#last">PULSAR Ⓡ MH</a> (Brand/Web)</li>
-								<li><a href="https://ohanapoke.mx">OHANA POKÉ</a> (Brand/Interiors)</li>
-								<li><a href="https://www.youtube.com/watch?v=OzwjfE4PqW4">INSITE MUSIC</a> (Film/Type)</li>
-								<li><a href="https://dominasistemi.it/">DOMINA SISTEMI</a> (Branding)</li>
-								<li><a href="https://www.youtube.com/watch?v=dyocxGiviRo">INSITE MUSIC</a>(Film/Type)</li>
-
-								<li><a href="https://www.infamuse.com">INFAMUSE</a> (INT/UX/UI/Dev)</li>
-								<li><a href="http://vira.com.mx">VIRA</a> (INT/UX/UI/Dev)</li>
-								<li><a href="https://www.blackpalmdevelopment.com">BLACKPALM DEV.</a> (UX/Dev)</li>
-								<li><a href="https://tequiladelaluz.com">DELALUZ</a> (INT/UI/UX/Dev)</li>
-								<li><a href="https://panio.mx">PANIO BAKERS</a> (UX/Dev)</li>
-								<li><a href="https://www.arcusfi.com">ARCUS</a> (INT/UI/UX/Dev)</li>
+							<li>🌐</li>
+								<li><a href="https://pulsar.media">PULSAR Ⓡ MH</a> <small>Branding+Web</small></li>
+								<li><a href="https://ohanapoke.mx">OHANA POKÉ</a> <small>Branding+Interior</small></li>
+								<li><a href="https://www.youtube.com/watch?v=OzwjfE4PqW4">INSITE MUSIC</a> <small>Production</small></li>
+								<li><a href="https://dominasistemi.it/">DOMINA SISTEMI</a> <small>Branding</small></li>
+								<li><a href="https://www.youtube.com/watch?v=dyocxGiviRo">INSITE MUSIC</a><small>Production</small></li>
+								<li><a href="https://www.infamuse.com">INFAMUSE</a> <small>Interaction+UX+Dev</small></li>
+								<li><a href="http://vira.com.mx">VIRA</a> <small>Interaction+UX+Dev</small></li>
+								<li><a href="https://www.blackpalmdevelopment.com">BLACKPALM DEV.</a> <small>UX/Dev</small></li>
+								<li><a href="https://tequiladelaluz.com">DELALUZ</a> <small>Interaction+UX+Dev</small></li>
+								<li><a href="https://panio.mx">PANIO BAKERS</a> <small>UX+Dev</small></li>
+								<li><a href="https://www.arcusfi.com">ARCUS</a> <small>Interaction+UX/UI+Dev</small></li>
 							</ul>
 
 							<ul>
-								<li>Experience:
-									<li><a href="https://anagrama.com">Anagrama Studio</a> (2018)</li>
-									<li><a href="https://pulsar.media">Pulsar Mediahouse</a> (2015)</li>
-									<li><a href="http://www.productotaller.com/">Producto Taller</a> (2012)</li>
-							</ul>
-
-
-							<ul>
-								<li>Leadership</li>
-								<li>Branding networks</li>
-								<li>HCD Design</li>
-								<li>Creative direction</li>
-								<li>IA/UX/UI</li>
-								<li>Interiors/Architecture</li>
-								<li>Copywriting</li>
-								<li>Film Typography</li>
-								<li>Storyboarding</li>
-								<li>Comm. Strategy</li>
-								<li>Photography</li>
-								<li>Growth Auditoring</li>
-								<li>Inbound Marketing</li>
-								<li>AAARRR!</li>
+								<li>📚</li>
+								<li><a href="https://www.amazon.com/dp/B0083DJWGO">Antifragile /N. N. Taleb</a> </li>
+								<li><a href="https://www.amazon.com/Grid-Systems-Principles-Organizing-Design-ebook/dp/B00JH8H4FK">Grid Systems /Kimberly Elam</a></li>
+								<li><a href="https://www.amazon.com/Lessons-21st-Century-Yuval-Harari-ebook/dp/B079WM7KLS">21 Lessons /Yuval N. Harari</a></li>
+								<li><a href="https://www.amazon.com/Infinite-Jest-David-Foster-Wallace-ebook/dp/B000S1M9LY/">✶ Infinite Jest /David F.W.</a></li>
 							</ul>
 
 							<ul>
-								<li>READING:</li>
-								<li><a href="">ANTIFRAGILE</a> / N. N. TALEB</li>
-								<li><a href="">GRID SYSTEMS</a> / KIMBERLY LEAN</li>
-							</ul>
-							<ul>
-								<li>LISTENING:</li>
-								<li>HVOB / <a href="">ROCCO</a></li>
-								<li>KEVIN ABSTRACT / <a href="">ARIZONA BABY</a></li>
+								<li>📻</li>
+								<li><a href="https://open.spotify.com/album/5WfDyog8yO7ZF8JdJxeZfl">Flamagra /Flying Lotus</a> </li>
+								<li><a href="https://open.spotify.com/album/17LsQV3q3cgTBrat3D5JSv">✶ TIHYS /Helado Negro </a></li>
+								<li><a href="https://open.spotify.com/album/2eRzkEpNd6gMrbb5wjK9xl">Rocco /HVOB</a></li>
+								<li><a href="https://open.spotify.com/album/0Sm1k8ifHIO117TmPPgv4I">Xiu Xiu /GWABOF</a></li>
+								<li><a href="https://open.spotify.com/album/6FTxwPvKmU6B6fIaS2AfGm">Arizona Baby /Kevin Abstract</a></li>
+								<li><a href="https://open.spotify.com/album/7lXkGYfPd8ygerG681NxQG">Outer Peace /Toro y Moi</a></li>
 							</ul>
 			`;
-}
+  }
 }
